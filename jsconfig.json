@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["*"],
+      "@/components/*": ["app/components/*"],
+      "@/layouts/*": ["app/layouts/*"],
+      "@/strHeader/*": ["app/layouts/common/HeaderTypes/*"],
+      "@/strFooter/*": ["app/layouts/common/FooterTypes/*"],
+      "@/strExtra/*": ["app/layouts/common/RequiredExtra/*"],
+      "@/HomeSeo/*": ["app/layouts/Seo/HomeSearchApperence/*"],
+      "@/pgSeo/*": ["app/layouts/Seo/PageSearchApperence/*"],
+      "@/AboutSeo/*": ["app/layouts/Seo/PageSearchApperence/About/*"],
+      "@/TcSeo/*": ["app/layouts/Seo/PageSearchApperence/TermsConditions/*"],
+      "@/PrivacySeo/*": ["app/layouts/Seo/PageSearchApperence/Privacy/*"],
+      "@/DownloadSeo/*": ["app/layouts/Seo/PageSearchApperence/Download/*"],
+      "@/NoIndexSeo/*": ["app/layouts/Seo/PageSearchApperence/NoIndex/*"],
+            "@/NoIndexSeo/*": ["app/layouts/Seo/PageSearchApperence/Restricted/*"],
+        "@/ptSeo/*": ["app/layouts/Seo/PostSearchApperence/*"],
+      "@/strHome/*": ["app/pageSections/HomePage/*"],
+      "@/strPost/*": ["app/pageSections/PostPage/*"],
+      
+      "@/database/*": ["src/data/settings/*"],
+      "@/hooks/*": ["src/hooks/*"],
+      "@/storeMdx/*": ["src/context/*"],
+      "@/renderMdxconfig/*": ["src/buckets/config/*"],
+      "@/renderMdxprops/*": ["src/buckets/props/*"],
+      "@/renderMdxutils/*": ["src/buckets/utils/*"],
+      "@/lib/*": ["src/lib/*"],
+      "@/data/*": ["src/data/settings/*"]
+    }
+  },
+  "exclude": ["node_modules", ".next"]
+}
