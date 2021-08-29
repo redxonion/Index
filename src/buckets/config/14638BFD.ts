@@ -1,7 +1,7 @@
 import fs from 'fs';
 import matter from 'gray-matter';
 import { join } from 'path';
-import { POSTS_PATH } from '../utils/14638BFD';
+import { POSTS_PATH } from '@/renderMdxutils/14638BFD';
 
 export function getPostSlugs(): string[] {
   return fs.readdirSync(POSTS_PATH);

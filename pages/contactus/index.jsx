@@ -1,10 +1,8 @@
 import React from "react";
-import Layout from '../../components/Layouts';
 
 export default function Contact(){
 return(
 <>
- <Layout>
 <nav class="breadcrumbs is-full-width breadcrumbs-a" id="breadcrumb"><div class="inner ts-contain "><span><a href="../index.html"><span>Home</span></a></span><span class="delim">&raquo;</span><span class="current">Get In Touch</span></div></nav>
 <div class="main ts-contain cf right-sidebar">
 
@@ -86,7 +84,6 @@ return(
 		</aside>
 		</div>
 		</div>
-	 </Layout>
 </>
 );
 }

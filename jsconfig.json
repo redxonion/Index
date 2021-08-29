@@ -20,10 +20,9 @@
         "@/ptSeo/*": ["app/layouts/Seo/PostSearchApperence/*"],
       "@/strHome/*": ["app/pageSections/HomePage/*"],
       "@/strPost/*": ["app/pageSections/PostPage/*"],
-      
       "@/database/*": ["src/data/settings/*"],
       "@/hooks/*": ["src/hooks/*"],
-      "@/storeMdx/*": ["src/context/*"],
+      "@/context/*": ["context/*"],
       "@/renderMdxconfig/*": ["src/buckets/config/*"],
       "@/renderMdxprops/*": ["src/buckets/props/*"],
       "@/renderMdxutils/*": ["src/buckets/utils/*"],

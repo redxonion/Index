@@ -1,5 +1,5 @@
 const siteMetadata = {
-	//Meta Names ~:
+	//Meta Names 
   title: 'Next.js Starter Blog',
   author: 'Red X Hyper',
   headerTitle: 'QuacThemes',
@@ -10,16 +10,7 @@ const siteMetadata = {
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
 
-//js
-microModal: '/base/js/micro-modal.js',
-jQuery-sticky-sidebar: '/base/js/jquery.sticky-sidebar.js',
-themejs: '/base/js/theme.js',
-jQuery-lightbox: '/base/js/jquery.mfp-lightbox.js',
-lazyloadScript: '/base/js/lazyload.js',
-jQuery-min: '/base/js/jquery/jquery.min.js',
-jQuery-migrate: '/base/jquery/jquery-migrate.min.js',
-
-  //Social-tags ~:
+  //Social-tags 
   socialBanner: '/static/images/twitter-card.png',
   email: 'address@yoursite.com',
   github: 'https://github.com',
@@ -28,7 +19,7 @@ jQuery-migrate: '/base/jquery/jquery-migrate.min.js',
   youtube: 'https://youtube.com',
   linkedin: 'https://www.linkedin.com',
   
-//Share Started ~:
+//Share Started 
   facebookshare: 'https://www.facebook.com/sharer.php?u=',
   twittershare: 'https://twitter.com/intent/tweet?url=',
   pinterestshare: 'https://pinterest.com/pin/create/button/?url=',

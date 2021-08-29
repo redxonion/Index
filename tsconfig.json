@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+        "paths": {
+      "@/strHeader/*": ["app/layouts/common/HeaderTypes/*"],
+      "@/strFooter/*": ["app/layouts/common/FooterTypes/*"],
+      "@/strExtra/*": ["app/layouts/common/Extra/*"],
+      "@/strHome/*": ["app/pageSections/HomePage/*"],
+      "@/strPost/*": ["app/pageSections/PostPage/*"],
+        "@/components/*": ["app/components/*"],
+        "@/layouts/*": ["app/layouts/*"],
+       "@/storeMdx/*": ["src/context/*"],
+      "@/renderMdxconfig/*": ["src/buckets/config/*"],
+      "@/renderMdxprops/*": ["src/buckets/props/*"],
+      "@/renderMdxutils/*": ["src/buckets/utils/*"],
+      "@/lib/*": ["src/lib/*"],
+      "@/context/*": ["context/*"],
+      "@/data/*": ["src/data/settings/*"],
+      "@styles/*": [ "styles/*" ]
+        }
+  },
+  "exclude": ["node_modules", ".next", "out"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "**/*.js","**/*.jsx","src","src/**/*.ts","src/**/**/*.ts"]
+}

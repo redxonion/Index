@@ -9,21 +9,21 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
 import path from 'path'
-import siteMetadata from '../../data/siteMetadata'
-import { postFilePaths, POSTS_PATH } from '../../weog/utils/08C29695'
+import siteMetadata from '@/data/siteMetadata'
+import { postFilePaths, POSTS_PATH } from '@/renderMdxutils/08C29695'
 import { NextSeo } from 'next-seo';
 import { BlogJsonLd } from 'next-seo';
-import CustomLink from '../../components/CustomLink'
+import CustomLink from '@/components/CustomLink'
 import React from "react";
-import Comments from "../../components/Posts/Comments";
-import Layout from '../../components/Layouts';
+//import Comments from "../../components/Posts/Comments";
+import Layout from '@/layouts/default';
 
 const url = 'https://www.quacthemes.ml/_images/'
 
 const components = {
   a: CustomLink,
  
-  TestComponent: dynamic(() => import('../../components/TestComponent')),
+  TestComponent: dynamic(() => import('@/components/TestComponent')),
   Head,
 }
 export default function PostPage({ source, frontMatter }) {

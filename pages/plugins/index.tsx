@@ -1,10 +1,10 @@
-import formatDate from '../../lib/FormatDate';
+import formatDate from '../../src/lib/FormatDate';
 import { GetStaticProps } from 'next';
 import Link from 'next/link';
 import React from 'react';
-import Layout from '../../components/Layouts';
-import { getAllPosts } from '../../weog/config/08C29695';
-import { PostType } from '../../weog/props/post';
+import Layout from '@/layouts/default'
+import { getAllPosts } from '@/renderMdxconfig/08C29695';
+import { PostType } from '@/renderMdxprops/post';
 
 type IndexProps = {
   posts: PostType[];

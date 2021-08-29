@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "@/strHeader/hdr3";
 import Footer from "@/strFooter/ftr3";
-import Extra from "@/strExtra/index";
+import Extra from "@/strExtra/common";
 export default function Layout({children}) {
 return (
 <>
