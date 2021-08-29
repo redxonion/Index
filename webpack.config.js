@@ -3,6 +3,6 @@ const { TsConfigPathsPlugin } = require('awesome-typescript-loader');
 
 resolve: {
     plugins: [
-        new TsConfigPathsPlugin(/* { tsconfig, compiler } */)
+        new TsConfigPathsPlugin( { tsconfig, compiler } )
     ]
 }
