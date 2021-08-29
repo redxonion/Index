@@ -1,0 +1,13 @@
+import AnotherLayout from '../components/AnotherLayout'
+
+export default function Page() {
+  return {
+    /** Your content */
+  }
+}
+
+Page.getLayout = (page) => (
+  <AnotherLayout>
+{page}
+  </AnotherLayout>
+)
